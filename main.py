@@ -28,3 +28,13 @@ while True :
         mouse.pos.y = mouse.pos.y + 0.1
     if 's' in k  and -5 < mouse.pos.x < -2:
         mouse.pos.y = mouse.pos.y - 0.1
+
+pyramid(axis=vec(-0.4, 0.4, 0),pos = vec(-0.2,0.4,0),color = vec(170/225, 150/225, 150/225), size = vec(0.6,0.6,0.6))
+pyramid(axis=vec(-0.4, 0.4, 0),pos = vec(-0.1,0.3,0.1), size = vec(0.6,0.6,0.6))
+pyramid(axis=vec(0.4, 0.4, 0),pos = vec(0.2,0.4,0),color = vec(170/225, 150/225, 150/225), size = vec(0.6,0.6,0.6))
+pyramid(axis=vec(0.4, 0.4, 0),pos = vec(0.1,0.3,0.1), size = vec(0.6,0.6,0.6))
+sphere(radius= 0.7, pos = vec(0,0,0),color = vec(170/225, 150/225, 150/225))
+sphere(radius= 0.1 , pos = vec(0,-0.1,0.7),color=color. black)
+sphere(radius= 0.2 , pos = vec(0,-0.1,0),color=color. black)
+sphere(radius= 0.05 , pos = vec(0.2,0.2,0.7),color=color. black)
+sphere(radius= 0.05 , pos = vec(-0.2,0.2,0.7),color=color. black)
